@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <link href="for.css" rel="stylesheet">
+<title>JavaScript</title>
+    <div class="container">
+<h2>What Can JavaScript Do?</h2>
+
+<!-- <p>JavaScript can change HTML attribute values.</p>
+
+<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+
+<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button> -->
+
+
+<br>
+<p id="demo">JavaScript can change the style of an HTML element.</p>
+<p id="demon">Bumi itu Bulat atau datar</p>
+<p id="demon" style="display:none">Hello Bumil</p>
+
+
+
+<button type="button" onclick="document.getElementById('Image').src='sun.gif'">Turn on the light</button>
+
+<img id="Image" src="bumi.gif" style="width:100px">
+
+<button onclick="document.getElementById('Image').src='bumi.gif'">Turn off the light</button>
+
+
+
+<br>
+    <!-- <p id="demo">JavaScript can change the style of an HTML element.</p> -->
+<button type="button" onclick="document.getElementById('demon').style.fontSize='35px'">FontSize!</button>
+<br>
+<!-- <p id="dem">JavaScript can hide HTML elements.</p> -->
+<button type="button" onclick="document.getElementById('demon').style.display='none'">hilang!</button>
+<br>
+<!-- <p id="demo" style="display:none">Hello JavaScript!</p> -->
+<button type="button" onclick="document.getElementById('demon').style.display='block'">muncul!</button>
+
+<br>
+<script>
+    function myFunction() {
+      document.getElementById("demon").innerHTML = "Saya Juga Tidak Tahu";
+    }
+    </script>
+    </head>
+
+    
+    <!-- <p id="demon">Jawab</p> -->
+    <button type="button" onclick="myFunction()">Jawab</button>
+<br>
+<script>
+    window.alert('Bumi');
+    </script>
+
+<button onclick="window.print()">Print this page</button>
+
+</body>
+</html>
